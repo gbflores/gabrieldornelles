@@ -1,0 +1,28 @@
+.container {
+    display: grid;
+    padding: 40px 32px;
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:
+        "header"
+        "buttons"
+        "experience"
+        "infos"
+    ;
+}
+
+@media (min-width: 768px) {
+    .container {
+        padding: 70px 60px;
+        height: 100vh;
+        align-items: center;
+        justify-items: start;
+        justify-content: space-between;
+        grid-template-rows: fit-content(100%);
+        grid-template-columns: 60% 30%;
+        grid-template-areas:
+            "header info"
+            "experience nd"
+            "nd2 buttons"
+        ;
+    }
+}
