@@ -1,11 +1,12 @@
 .container {
     display: grid;
     padding: 40px 32px;
+    gap: 24px;
     grid-template-rows: repeat(4, auto);
     grid-template-areas:
         "header"
         "buttons"
-        "experience"
+        "experiences"
         "infos"
     ;
 }
@@ -21,7 +22,7 @@
         grid-template-columns: 60% 30%;
         grid-template-areas:
             "header info"
-            "experience nd"
+            "experiences nd"
             "nd2 buttons"
         ;
     }

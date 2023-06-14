@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { Header } from "./components/header/header";
+import { Experiences } from "./components/experiences/experience";
 
 import './styles/home.scss';
 
@@ -7,13 +8,7 @@ export default function Home() {
   return (
     <main className="container">
       <Header />
-      <div className="experiences">
-        <h3>Experience</h3>
-        <p>text</p>
-        <div className="experience-time">
-
-        </div>
-      </div>
+      <Experiences />
       <div className="infos">
         <h3>Languages</h3>
         <div className="languages">
