@@ -2,17 +2,44 @@
     display: grid;
     padding: 40px 32px;
     gap: 24px;
+    justify-items: center;
     grid-template-rows: repeat(4, auto);
     grid-template-areas:
         "header"
         "buttons"
         "experiences"
-        "infos"
-    ;
-}
+        "infos";
 
-@media (min-width: 768px) {
-    .container {
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 24px;
+        grid-area: buttons;
+        width: 100%;
+    }
+
+    .btn-primary {
+        background: linear-gradient(90deg, #ED2970 2.62%, #916BCE 93.38%);
+        border-radius: 24px;
+        width: 325px;
+        padding: 12px;
+        text-align: center;
+        color: var(--text-secondary);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 30;
+        text-transform: uppercase;
+        border: none;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+    @media (min-width: 768px) {
         padding: 70px 60px;
         height: 100vh;
         align-items: center;
