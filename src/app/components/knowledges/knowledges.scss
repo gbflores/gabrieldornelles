@@ -1,0 +1,46 @@
+.tags {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+
+    .dev span {
+        color: #fff !important;
+        background-color: #454886;
+        border-radius: 70em;
+    }
+
+    .front span {
+        color: #fff !important;
+        background-color: #E04B26;
+        border-radius: 70em;
+    }
+
+    .database span {
+        color: #074C15 !important;
+        background-color: #50FA7B;
+        border-radius: 70em;
+    }
+
+    .design span {
+        color: #fff !important;
+        background-color: #310000;
+        border-radius: 70em;
+    }
+
+    span {
+        font-size: 13px;
+        line-height: 13px;
+        padding: 6px 15px 6px;
+        margin: 8px 6px 8px 0;
+        text-transform: lowercase;
+    }
+
+    @media (min-width: 1024px) {
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+}

@@ -23,13 +23,13 @@
     .btn-primary {
         background: linear-gradient(90deg, #ED2970 2.62%, #916BCE 93.38%);
         border-radius: 24px;
-        width: 325px;
+        width: 100%;
         padding: 12px;
         text-align: center;
         color: var(--text-secondary);
         font-weight: 500;
         font-size: 20px;
-        line-height: 30;
+        line-height: 30px;
         text-transform: uppercase;
         border: none;
         display: flex;
@@ -39,18 +39,17 @@
         text-decoration: none;
     }
 
-    @media (min-width: 768px) {
+    @media (min-width: 1024px) {
         padding: 70px 60px;
-        height: 100vh;
+        min-height: 100vh;
         align-items: center;
         justify-items: start;
         justify-content: space-between;
         grid-template-rows: fit-content(100%);
         grid-template-columns: 60% 30%;
         grid-template-areas:
-            "header info"
-            "experiences nd"
-            "nd2 buttons"
+            "header infos"
+            "experiences buttons"
         ;
     }
 }

@@ -5,8 +5,8 @@ export function Header() {
     return (
         <div className="header">
             <div>
-                <h1>Hi, I'm Guilherme</h1>
-                <h2>Software Engineer</h2>
+                <h1>Olá, eu sou o Guilherme</h1>
+                <h2>Dev PHP Full Stack</h2>
             </div>
             <Image
                 src="/eu.jpg"
