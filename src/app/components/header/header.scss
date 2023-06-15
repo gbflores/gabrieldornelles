@@ -21,10 +21,12 @@
     }
 
     img {
-        border-radius: 100%;
-        border: 1px solid #fff;
+        border-radius: 10px;
         width: 100px;
         height: 100px;
+        -webkit-box-shadow: 0px 0px 33px -7px rgba(0, 0, 0, 0.58);
+        -moz-box-shadow: 0px 0px 33px -7px rgba(0, 0, 0, 0.58);
+        box-shadow: 0px 0px 33px -7px rgba(0, 0, 0, 0.58);
     }
 
     @media (min-width: 1024px) {
@@ -43,8 +45,6 @@
         }
 
         img {
-            border-radius: 100%;
-            border: 1px solid #fff;
             width: 200px;
             height: 200px;
         }

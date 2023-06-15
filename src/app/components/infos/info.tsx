@@ -15,7 +15,7 @@ export function Infos() {
             <SectionTitleProps text="Trabalho Atual" />
             <div className="educational">
                 <span>Desenvolvimento do 0 do ecommerce da Maxxi Econômica Farmácias, integrando todo o sistema interno com as 140 lojas e consulta de estoque online, montando o desenvolvimento para ser o melhor para o cliente e distribuição rápida para o pdv das lojas.
-                    Criação de plataforma digital com automatização de diversas ferramentas internas para otimização de tempo e melhoria de captação de vendas para cada loja.</span>
+                    Criação de plataforma digital com automatização de diversas ferramentas internas para otimização de tempo e melhoria de captação de vendas para cada loja, com automatização de imagens padrões, impressões, utilização de campanhas, e com o projeto ainda em andamento e crescendo.</span>
             </div>
             <a className="btn-primary" href="https://maxxieconomica.com" target="_blank">
                 Acessar site!
