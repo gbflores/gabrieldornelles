@@ -6,8 +6,7 @@ export function Experiences() {
     return (
         <div className="experiences">
             <SectionTitleProps text="Sobre" />
-            <p>Desenvolvedor Full Stack Sênior apaixonado por criar soluções web. Com mais de 10 anos de experiência, tenho um histórico comprovado no desenvolvimento de sistemas escaláveis e no gerenciamento de projetos complexos.</p>
-            {/* <p>Senior Full Stack developer passionate about creating web solutions. With over 10 years of experience, I have a proven track record in developing scalable systems and managing complex projects.</p> */}
+            <p>Olá meu nome é Gabriel Dornelles, tenho 23 anos, estou trabalhando na área de T.I a mais de 7 anos, tenho histórico comprovado na atuação Suporte tecnico e externo, montagem e expansão de loja, manutenção de rede, Hardware e Softwares, de 2 grandes rede de farmacias no RS.</p>
             <SectionTitleProps text="Conhecimentos" />
             <div className="knowledges">
                 <Knowledges />

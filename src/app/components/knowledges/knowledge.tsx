@@ -4,26 +4,25 @@ export function Knowledges() {
     return (
         <div className="tags">
             <div className="dev">
-                <span>PHP</span>
-                <span>Laravel</span>
-                <span>Javascript</span>
-                <span>React</span>
-                <span>Next</span>
+                <span>Infraestrutura</span>
+                <span>Redes de Computadores</span>
+                <span>Redes sem fio</span>
+                <span>Hardware</span>
+                <span>Software</span>
             </div>
             <div className="front">
-                <span>Html</span>
-                <span>Css</span>
-                <span>Bootstrap</span>
-                <span>Tailwind</span>
+                <span>Windows</span>
+                <span>Linux</span>
+                <span>MacOS</span>
             </div>
             <div className="database">
                 <span>MySql</span>
-                <span>Postgre</span>
-                <span>Firebird</span>
+                <span>Transact-SQL</span>
+                <span>PostgreSQL</span>
             </div>
             <div className="design">
-                <span>Photoshop</span>
-                <span>Illustrator</span>
+                <span>Suporte Técnico</span>
+                <span>Atendimento ao Cliente</span>
             </div>
         </div>
     )

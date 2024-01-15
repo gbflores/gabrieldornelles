@@ -15,7 +15,7 @@ export default function Home() {
       <Infos />
       <div className="buttons">
         <Buttons />
-        <a className="btn-primary" href="mailto:guilhermebflores@gmail.com">
+        <a className="btn-primary" href="mailto:ogabrieldornelle@gmail.com">
           Entre em contato!
           <IconEmail width="24" height="24" color="white" />
         </a>
